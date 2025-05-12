@@ -7,10 +7,11 @@ const { MongoClient } = require("mongodb");
 
 // MongoDB connection string
 const URL =
-  "mongodb+srv://rohit1682:Rohit%401682@learningmongo.hnfol4j.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://rohit1682:Rohit%401682@mongodb-practice.7pgcqiz.mongodb.net/";
 // %40 is used to encode the @ symbol in the URL
 
-const dbName = "UserData";
+const dbName = "UserCRUD"; // Database name
+// Collection name
 const collectionName = "user";
 
 /**
